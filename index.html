@@ -688,12 +688,22 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
+            hover {
+                cursor: pointer;
+            }
+        }
+        .footer-contact:hover {
+            color: var(--primary-color);
+            cursor: pointer;
         }
 
         .social-links {
             display: flex;
             gap: 15px;
             margin-top: 15px;
+            hover {
+                cursor: pointer;
+            }
         }
 
         .social-link {
@@ -1217,9 +1227,9 @@
                 
                 <div class="footer-section">
                     <h3>Contact Info</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
-                    <p><i class="fas fa-phone"></i> +234-811-438-6751</p>
-                    <p><i class="fas fa-envelope"></i> sophiaadesuwa122@gmail.com</p>
+                    <p class="footer-contact"><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                    <p class="footer-contact"><i class="fas fa-phone"></i><a href="tel:+234-811-438-6751"></a>+234-811-438-6751</p>
+                    <p class="footer-contact"><i class="fas fa-envelope"></i><a href="mailto:sophiaadesuwa122@gmail.com"></a> sophiaadesuwa122@gmail.com</p>
                 </div>
             </div>
             
